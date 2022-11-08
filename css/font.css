@@ -1,0 +1,77 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+.notosanskr {font-family: 'Noto Sans KR', sans-serif;}
+.notosans {font-family: 'Noto Sans', sans-serif;}
+.nanumgothic {font-family: 'Nanum Gothic', sans-serif;}
+.nanummyeong {font-family: 'Nanum Myeongjo', serif;}
+.nanumpenscript {font-family: 'Nanum Pen Script', cursive;}
+.nanumbrushscript {font-family: 'Nanum Brush Script', cursive;}
+.computerbrush {font-family: 'Comforter Brush', cursive;}
+.outfit {font-family: 'Outfit', sans-serif;}
+.poppins {font-family: 'Poppins', sans-serif;}
+.oswald {font-family: 'Oswald', sans-serif;}
+.estonia {font-family: 'Estonia', cursive;}
+.raleway {font-family: 'Raleway', sans-serif;}
+.ubuntu {font-family: 'Ubuntu', sans-serif;}
+.playfairdisplay {font-family: 'Playfair Display', serif;}
+.lora {font-family: 'Lora', serif;}
+.shipporiantiqueB1 {font-family: 'Shippori Antique B1', sans-serif;}
+.mukta {font-family: 'Mukta', sans-serif;}
+.inter {font-family: 'Inter', sans-serif;}
+.worksans {font-family: 'Work Sans', sans-serif;}
+.roboto {font-family: 'Roboto', sans-serif;}
+
+
+.blackhansans {font-family: 'Black Han Sans', sans-serif;}
+.dohyeon {font-family: 'Do Hyeon', sans-serif;}
+.jua {font-family: 'Jua', sans-serif;}
+.himelody {font-family: 'Hi Melody', cursive;}
+.ibmplexsanskr {font-family: 'IBM Plex Sans KR', sans-serif;}
+.gowunbatang {font-family: 'Gowun Batang', serif;}
+.gamjaflower {font-family: 'Gamja Flower', cursive;}
+.hahmlet {font-family: 'Hahmlet', serif;}
+.yensung {font-family: 'Yeon Sung', cursive;}
+.cutefont {font-family: 'Cute Font', cursive;}
+.stylish {font-family: 'Stylish', sans-serif;}
+.poorstory {font-family: 'Poor Story', cursive;}
+.kiranghaerang {font-family: 'Kirang Haerang', cursive;}
+.singleday {font-family: 'Single Day', cursive;}
+/* .notoserifkr {font-family: 'Noto Serif KR', serif;} */
