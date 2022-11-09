@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="jmweb">
+    <meta name="description" content="프로젝트 상세 설명">
+    <title>KIA_Compare</title>
+    <!-- Meta Data : FaceBook-->
+    <meta property="og:image" content="./images/">
+    <meta property="og:title" content="프로젝트 타이틀">
+    <meta property="og:description" content="프로젝트 상세설명">
+    <meta property="og:url" content="프로젝트 url 주소">
+    <meta property="og:locale" content="메인 서비스 국가">
+    <meta property="og:site_name" content="프로젝트 사이트 이름">
+    <meta property="og:type" content="프로젝트 종류">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Favicon PC / Mobile-->
+    <link rel="shorcut icon" href="./images/">
+    <link rel="apple-touch-icon=precomposed" href="./images/">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/notosans_kr_CDN.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <!-- System Font CSS-->
+    <!-- <link rel="stylesheet" href="./css/system_font.css"> -->
+    <!-- No scrollbar CSS -->
+    <!-- <link rel="stylesheet" href="./css/no_scrollbar.css"> -->
+
+    <!-- HTML5 JS File -->
+    <script src="./js/html5shiv.js"></script>
+    <script src="./js/respond.src.js"></script>
+    <!-- JQ PlugIn -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <!-- PreFix Free -->
+    <script src="./js/prefixfree.min.js"></script>
+
+    <!-- 프로젝트 페이지 SCRIPT -->
+
+    <!-- 프로젝트 페이지 CSS -->
+    <link rel="stylesheet" href="./css/compare.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <!-- Header -->
+        <header>
+            <!-- Gnb Menu -->
+            <div class="header_cont">
+                <div class="gnb_all">
+                    <nav class="global">
+                        <ul class="gnb">
+                            <li>
+                                <a href="#">차량</a>
+                            </li>
+                            <li>
+                                <a href="#">구매</a>
+                                <ul class="submenu">
+                                    <li><a href="#">견적내기</a></li>
+                                    <li><a href="#">할부 계산기</a></li>
+                                    <li><a href="#">구매 상담 신청</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">체험</a>
+                                <ul class="submenu">
+                                    <li><a href="#">시승신청</a></li>
+                                    <li><a href="#">판매 네트워크</a></li>
+                                    <li></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">고객지원</a>
+                                <ul class="submenu">
+                                    <li><a href="#">1:1 문의</a></li>
+                                    <li><a href="#">공지사항</a></li>
+                                    <li></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!--Logo -->
+                        <h1 class="logo">
+                            <a href="#"><img src="./images/logo.svg" alt="로고"></a>
+                        </h1>
+                        <!--/Logo -->
+                        <ul class="snb">
+                            <li><a href="#">통합검색</a></li>
+                            <li><a href="#">로그인</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- /Gnb Menu -->
+            </div>
+        </header>
+        <!-- /Header -->
+        <!-- Main -->
+        <main role="main">
+            <h2 class="main_title">경쟁 모델 비교</h2>
+            <p class="main_txt">원하시는 기아의 차량을 국내 판매 중인 차량과 빠르게 비교하실 수 있습니다. (최대 3개까지 선택 가능)</p>
+            <div class="btn_area">
+                <button><img src="./images/refresh.svg" alt="선택초기화"></button>
+                <p>선택 초기화</p>
+            </div>
+            <div class="compare_wrap">
+                <div class="kia_car">
+                    <div class="img_wrap">
+                        <img src="https://www.kia.com/content/dam/kwp/descriptive/car_blank.png" alt="차량일러스트">
+                    </div>
+                    <div class="car_select">
+                        <p>기아</p>
+                        <div class="type_select">
+                            <div class="type_selected">
+                                <div class="selected-value">차량 선택</div>
+                                <div class="arrow"></div>
+                            </div>
+                            <ul>
+                                <li class="option">모닝</li>
+                                <li class="option">레이</li>
+                                <li class="option">K3</li>
+                                <li class="option">K3 GT</li>
+                                <li class="option">K5</li>
+                                <li class="option">스팅어</li>
+                                <li class="option">K8</li>
+                                <li class="option">K9</li>
+                                <li class="option">니로</li>
+                                <li class="option">니로EV</li>
+                                <li class="option">니로 플러스</li>
+                                <li class="option">EV6</li>
+                                <li class="option">EV6 GT</li>
+                                <li class="option">셀토스</li>
+                                <li class="option">쏘렌토</li>
+                                <li class="option">모하비</li>
+                                <li class="option">카니발</li>
+                            </ul>
+                        </div>
+                        <div class="engine_select">
+                            <div class="engine_selected">
+                                <div class="selected-value">엔진 선택</div>
+                                <div class="arrow"></div>
+                            </div>
+                            <ul>
+                                <li class="option">1.0 가솔린</li>
+                                <li class="option">1.0 가솔린 밴</li>
+                            </ul>
+                        </div>
+                        <div class="trim_select">
+                            <div class="trim_selected">
+                                <div class="selected-value">트림 선택</div>
+                                <div class="arrow"></div>
+                            </div>
+                            <ul>
+                                <li class="option">스탠다드 마이너스 / 4단 자동변속기</li>
+                                <li class="option">스탠다드 / 4단 자동변속기</li>
+                                <li class="option">프레스티지 / 4단 자동변속기</li>
+                                <li class="option">시그니처 / 4단 자동변속기</li>
+                            </ul>
+                        </div>
+                        <div class="btn_list">
+                            <button class="buying_btn">구매 상담 신청</button>
+                            <button class="invoce_btn">견적 내기</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="car_add1">
+                    <a href="#" class="model_add">
+                        <p class="add_icon"><img src="./images/compare_add.svg"></p>
+                        <p class="add_txt">차량 추가</p>
+                    </a>
+                </div>
+                <div class="car_add2">
+                    <a href="#" class="model_add">
+                        <p class="add_icon"><img src="./images/compare_add.svg"></p>
+                        <p class="add_txt">차량 추가</p>
+                    </a>
+                </div>
+            </div>
+            <div class="compare_btn">
+                <button class="compare_btn">모델 비교</button>
+            </div class="compare_btn">
+            <div class="notice">
+                <h2>유의 사항</h2>
+                <ul>
+                    <li><img src="./images/circle.svg" alt="불릿">비교 차량의 총 구입 비용은 개별 소비세 3.5%가 적용된 가격입니다.(면세 차량 제외)</li>
+                    <li><img src="./images/circle.svg" alt="불릿">자동차 이미지는 참조용으로 구입 시점과 제조사 수시 변경으로 판매차량과 다를 수 있으니 해당 모델 판매점에 확인바랍니다.</li>
+                    <li><img src="./images/circle.svg" alt="불릿">상기 내용은 고객님의 차량 구입 의사결정에 도움을 드리고자 제공하는 참고용 서비스로 법적 효력이 없으며, 실제 구입 시 차이가 있을 수 있습니다.</li>
+                    <li><img src="./images/circle.svg" alt="불릿">상기 차량별 비교 정보는 각 제조업체의 카탈로그 및 홈페이지에 공개된 자료를 바탕으로 작성되었습니다.</li>
+                    <li><img src="./images/circle.svg" alt="불릿">수시로 최신정보를 갱신하고 있으나 간혹 업데이트가 늦어지는 경우가 발생할 수 있습니다.</li>
+                </ul>
+            </div>
+        </main>
+        <!-- /Main -->
+        <footer>
+            <div class="footer_top_wrap">
+                <div class="footer_top">
+                    <ul class="footer_gnb">
+                        <li><a href="#"><img src="./images/w_logo.svg" alt="로고"></a></li>
+                        <li><a href="#">판매 네트워크</a></li>
+                        <li><a href="#">견젹 내기</a></li>
+                        <li><a href="#">구매 상담 신청</a></li>
+                        <li><a href="#">시승 신청</a></li>
+                    </ul>
+                    <ul class="footer_snb">
+                        <li><a href="#">New kia</a></li>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">IR</a></li>
+                        <li><a href="#">채용</a></li>
+                    </ul>
+                    <ul class="footer_sns">
+                        <li><a href="#"><img src="./images/facebook.svg" alt="페이스북"></a></li>
+                        <li><a href="#"><img src="./images/instagram.svg" alt="인스타그램"></a></li>
+                        <li><a href="#"><img src="./images/youtube.svg" alt="유튜브"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="family_site_wrap">
+                <div class="family_site">
+                    <div class="language_btn">
+                        <a href="#"><img src="./images/language.svg" alt="언어">한국</a>
+                    </div>
+                    <div class="family_select">
+                        <div class="family_selected">
+                            <div class="selected-value">Family Site</div>
+                            <div class="family_btn"></div>
+                        </div>
+                        <ul>
+                            <li class="option">현대자동차그룹</li>
+                            <li class="option">브랜드</li>
+                            <li class="option">기아멤버스</li>
+                            <li class="option">기아블로그 'PLAY Kia'</li>
+                            <li class="option">기아 드라이빙 아카데미</li>
+                            <li class="option">글로벌경영연구소</li>
+                            <li class="option">기아타이거즈</li>
+                            <li class="option">기아군용</li>
+                            <li class="option">프라이버시 센터</li>
+                            <li class="option">Kia Connect</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_down_wrap">
+                <div class="footer_down">
+                    <p class="footer_copyright">&copy; kia corp. All rights reserved</p>
+                    <ul class="footer_policy">
+                        <li><a href="#">개인정보 처리방침</a></li>
+                        <li><a href="#">프라이버시 센터</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">윤리경영 사이버감사실</a></li>
+                        <li><a href="#">전자공고</a></li>
+                        <li><a href="#">사이트맵</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

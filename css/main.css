@@ -11,18 +11,14 @@ header {
   width: 100%;
   min-width: 1400px;
 }
-.banner_wrap {
-  width: 100%;
-  /* min-width: 1400px;
-  min-height: 627px; */
-  /* position: relative; */
-}
-.banner_wrap img {
-  width: 100%;
-}
 .header_cont {
   min-width: 1400px;
 }
+/* .gnb_all {
+  width: 100%;
+  height: 500px;
+  background-color: pink;
+} */
 header .global {
   width: 100%;
   min-width: 1400px;
@@ -46,8 +42,8 @@ header .global .gnb {
 header .global .gnb li {
   width: 130px;
   text-align: center;
-  color: #000;
-  font-weight: 800;
+  color: #05141f;
+  font-weight: 700;
   transition: all 1s;
   cursor: pointer;
   /* 포지션 위치 기준값 */
@@ -64,7 +60,7 @@ header .global .gnb li .submenu {
   position: absolute;
   left: 0;
   z-index: 200;
-  /* display: none; */
+  display: none;
 }
 header .global .gnb li .submenu li {
   /* transition: all 1s; */
@@ -89,56 +85,14 @@ header .global .snb {
 }
 header .global .snb li {
   margin-left: 28px;
-  color: #000;
+  color: #37434b;
   font-weight: 500;
 }
 header .global .snb li:first-child {
   margin-left: 0;
 }
-.keyvisual_cont {
-  width: 400px;
-  position: relative;
-  left: 40px;
-  top: -280px;
-  z-index: 200;
-}
-.keyvisual_cont p:nth-child(1) {
-  font-size: 1.8rem;
-  font-weight: 300;
-  color: #fff;
-}
-.keyvisual_cont p:nth-child(2) {
-  font-size: 5.2rem;
-  font-weight: 700;
-  color: #fff;
-  margin-top: 20px;
-}
-.mainview_btn {
-  display: flex;
-  justify-content: start;
-  margin-top: 60px;
-}
-.mainview_btn a {
-  line-height: 48px;
-  font-size: 1.4rem;
-  font-weight: 700;
-  text-align: center;
+/*/Header */
 
-}
-.mainview_btn a:nth-child(1) {
-  width: 120px;
-  height: 48px;
-  background-color: #fff;
-  margin-right: 16px;
-}
-.mainview_btn a:nth-child(2) {
-  width: 106px;
-  height: 48px;
-  background-color: #000;
-  color: #fff;
-}
-
-/* /Header */
 
 /* Main */
 main {
